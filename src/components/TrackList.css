@@ -1,0 +1,31 @@
+.track-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.track-card {
+    background-color: #505050;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 250px;
+    text-align: center;
+}
+
+.track-card h2 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.track-card p {
+    margin: 0 0 16px 0;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.track-card a {
+    color: white;
+}
